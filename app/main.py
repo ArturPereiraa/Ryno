@@ -39,7 +39,7 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 templates = Jinja2Templates(directory="app/templates")
 
 # Redireciona para pagina home
-@app.get("/", response_class=HTMLResponse)
+@app.get("ryno-ryno2-gaavfbaccpdbg5c9.brazilsouth-01.azurewebsites.net", response_class=HTMLResponse)
 def read_home(request: Request):
     user_email = request.session.get('user_email') #Pegar o email que está como email da seção
     user = read(user_email)
