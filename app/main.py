@@ -239,6 +239,5 @@ def perfil_editar(request: Request,nome:str = Form(...), email: str = Form(...),
 
 
 # Roda o programa
-if __name__ == "__main__":
-    uvicorn.run(app, host="20.206.176.2
-", port=7777)
+#if __name__ == "__main__":
+    #uvicorn.run(app, host="20.206.176.2", port=7777)
